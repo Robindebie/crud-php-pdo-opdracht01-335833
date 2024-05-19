@@ -33,7 +33,7 @@
     </h3>
     <input type="email" placeholder="randomguy@gmail.com" pattern="^[a-zA-Z0-9@]+$" required>
      </form>
-
+     
     <form>
     <h3>
         Afspraak datum:
