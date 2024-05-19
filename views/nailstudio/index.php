@@ -6,34 +6,43 @@
     <title>blingblingnagelstudiochantal</title>
 </head>
 <body>
-    <h1>
+    <h1 style="color: purple;">
         Bling Bling Nail Studio Chantal
     </h1>
 <form>
     <h3>
         kies 4 basiskleuren voor uw nagels:
     </h3>
-    <label for=""></label>
+   
     <input type="color" value="#ff0000">
     <input type="color" value="#712995">
     <input type="color" value="#DA98CA">
     <input type="color" value="#ECE46C">
+</form> 
 
+    <form>
     <h3>
         Uw telefoonnummer:
     </h3>
-    <input type="tel" placeholder="+31 6 2570 51 41" pattern="{3}-[0-9]{2}-[0-9]{3}" required>
-    
+    <input type="tel" placeholder="+31 6 2570 51 41" pattern="^+\d{2} \d \d{4} \d{2} \d{2}$" required>
+     </form>
+
+    <form>
     <h3>
         Uw e-mailadres:
     </h3>
-    <input type="email" placeholder="randomguy@gmail.com" required>
+    <input type="email" placeholder="randomguy@gmail.com" pattern="^[a-zA-Z0-9@]+$" required>
+     </form>
 
+    <form>
     <h3>
         Afspraak datum:
     </h3>
     <input type="datetime-local" placeholder="dd-mm-jjjj" required>
+    <input type="hidden">
+     </form>
 
+    <form>
     <h3>
         soort behandeling:
     </h3>
