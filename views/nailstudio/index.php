@@ -9,7 +9,7 @@
     <h1>
         Bling Bling Nail Studio Chantal
     </h1>
-
+<form>
     <h3>
         kies 4 basiskleuren voor uw nagels:
     </h3>
@@ -22,7 +22,7 @@
     <h3>
         Uw telefoonnummer:
     </h3>
-    <input type="tel" placeholder="+31 6 2570 51 41" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    <input type="tel" placeholder="+31 6 2570 51 41" pattern="{3}-[0-9]{2}-[0-9]{3}" required>
     
     <h3>
         Uw e-mailadres:
@@ -45,5 +45,9 @@
 <br>
     <input type="checkbox" id="behandeling3">
     <label for="behandeling3">Nagelreparatie per nagel (in eerste week gratis) $5,00</label>
+<br>
+    <input type="submit" value="Sla op">
+    <input type="reset" value="Reset" >
+</form>
 </body>
 </html>
