@@ -29,7 +29,10 @@
     </h3>
     <input type="email" placeholder="randomguy@gmail.com" required>
 
-
+    <h3>
+        Afspraak datum:
+    </h3>
+    <input type="datetime-local" placeholder="dd-mm-jjjj" required>
   
 
 </body>
