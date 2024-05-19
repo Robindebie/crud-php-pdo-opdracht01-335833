@@ -33,7 +33,17 @@
         Afspraak datum:
     </h3>
     <input type="datetime-local" placeholder="dd-mm-jjjj" required>
-  
 
+    <h3>
+        soort behandeling:
+    </h3>
+    <input type="checkbox" id="bahandeling1">
+    <label for="behandeling1">Nagelbijt arrangement (termijnbetaling mogelijk) $180</label>
+<br>
+    <input type="checkbox" id="bahandeling2">
+    <label for="behandeling2">Luxe manicure (massage en handpakking) $30,00</label>
+<br>
+    <input type="checkbox" id="behandeling3">
+    <label for="behandeling3">Nagelreparatie per nagel (in eerste week gratis) $5,00</label>
 </body>
 </html>
