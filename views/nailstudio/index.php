@@ -22,8 +22,14 @@
     <h3>
         Uw telefoonnummer:
     </h3>
-    <input type="tel" id="phone" placeholder="+31 6 2570 51 41" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-    <form>
+    <input type="tel" placeholder="+31 6 2570 51 41" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    
+    <h3>
+        Uw e-mailadres:
+    </h3>
+    <input type="email" placeholder="randomguy@gmail.com" required>
+
+
   
 
 </body>
