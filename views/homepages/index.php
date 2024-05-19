@@ -9,6 +9,7 @@
 
             <a href="<?= URLROOT; ?>/instructeurs/index">Instructeurs</a> |
             <a href="<?= URLROOT; ?>/Countries/index">Landen van de Wereld</a> |
+            <a href="<?= URLROOT; ?>/nailstudio/index">nailstudio</a> |
 
         </div>
         <div class="col-3"></div>
